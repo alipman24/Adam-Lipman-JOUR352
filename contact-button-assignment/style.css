@@ -8,6 +8,7 @@ Green - #3f784c
 */
 body {
     background-color: #3f784c;
+    text-align: center;
 }
 
 button {
@@ -30,5 +31,16 @@ h1,
 h2,
 button {
     font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+button{
     font-weight: 400;
 }
