@@ -23,8 +23,8 @@ button {
 }
 
 button:hover {
-    background-color: #b20d30;
-    color: #3f84e5;
+    background-color: #3f84e5;
+    color: #b20d30;
 }
 
 h1,
@@ -34,13 +34,13 @@ button {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2 {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 button{
-    font-weight: 400;
+    font-weight: 500;
 }
