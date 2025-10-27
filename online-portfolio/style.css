@@ -1,0 +1,75 @@
+/*
+MY COLOR PALETTE
+Light Blue - #3f84e5
+Whiteish Pink - #f0e2e7
+Red - #b20d30
+Dark Gold - #c17817
+Green - #3f784c
+*/
+
+body {
+    background-color: #3f784c;
+    text-align: center;
+}
+
+button {
+    color: #f0e2e7;
+    background-color: #b20d30;
+    font-size: 30px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #3f84e5;
+    color: #b20d30;
+}
+
+h1, button {
+    font-family: 'League Spartan', sans-serif;
+}
+
+h2 {
+    font-family: 'Spectral', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 75px
+}
+
+h2 {
+    font-weight: 450;
+    font-size: 40px;
+}
+
+button {
+    font-weight: 500;
+}
+
+footer {
+    margin-top: 150px;
+    font-family: 'Spectral', sans-serif;
+    font-weight: 450;
+    font-size: 200%;
+    background-color: #c17817;
+    padding-bottom: 85px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.footer {
+    width:100%;
+}
+
+.page-one {
+    margin:-125px;
+}
+
+.footer div {
+    float: left;
+    width: 33%;
+}
