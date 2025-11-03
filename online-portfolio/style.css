@@ -1,7 +1,7 @@
 /*
 MY COLOR PALETTE
 Light Blue - #3f84e5
-Whiteish Pink - #f0e2e7
+White - #f0e2e7
 Red - #b20d30
 Dark Gold - #c17817
 Green - #3f784c
@@ -17,59 +17,93 @@ button {
     background-color: #b20d30;
     font-size: 30px;
     border: none;
-    width: 200px;
+    width: 50%;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     border-radius: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
 }
 
-button:hover {
-    background-color: #3f84e5;
-    color: #b20d30;
-}
-
-h1, button {
+h1 {
+    color: #f0e2e7;
+    font-weight: 600;
+    font-size: 75px;
     font-family: 'League Spartan', sans-serif;
 }
 
 h2 {
+    color: #f0e2e7;
     font-family: 'Spectral', sans-serif;
-}
-
-h1 {
-    font-weight: 600;
-    font-size: 75px
-}
-
-h2 {
     font-weight: 450;
     font-size: 40px;
 }
 
-button {
-    font-weight: 500;
+h3 {
+    color: #f0e2e7;
+    font-weight: 450;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Spectral', sans-serif;
 }
 
-footer {
-    margin-top: 150px;
+.headings {
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+.menu, footer {
     font-family: 'Spectral', sans-serif;
     font-weight: 450;
     font-size: 200%;
     background-color: #c17817;
-    padding-bottom: 85px;
-    padding-top: 45px;
-    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-.footer {
-    width:100%;
+a {
+    color: #f0e2e7;
+    font-family: 'Spectral', sans-serif;
+}
+
+a:hover {
+    color: #3f84e5;
 }
 
 .page-one {
-    margin:-125px;
+    margin-top: 1%;
 }
 
-.footer div {
-    float: left;
-    width: 33%;
+#headshot {
+    width: 75%;
+}
+
+hr {
+    height: 5px;
+    background-color: #000000;
+    border: none;
+    opacity: 100;
+    padding-left: 1%;
+}
+
+h4 {
+    font-family: 'Spectral', sans-serif;
+    font-weight: 750;
+    font-size: 30px;
+    text-align: left;
+    color: #c17817;
+}
+
+.Sections {
+    padding-left: 1%;
+    text-align: left;
+    width: 100%;
+}
+
+p,
+li {
+    font-family: 'Spectral', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #f0e2e7
 }
